@@ -32,7 +32,7 @@ SET currentpath=%currentpath:~0,-1%
 cd /d %currentpath%
 SET CAROOT=%currentpath%
 @mkcert-v1.4.4-windows-amd64.exe -install
-@mkcert-v1.4.4-windows-amd64.exe -cert-file win-apache-php.pem -key-file win-apache-php-key.pem default localhost php70 php71 php72 php73 php74 php80 php81 php82
+@mkcert-v1.4.4-windows-amd64.exe -cert-file win-apache-php.pem -key-file win-apache-php-key.pem default localhost php70 php71 php72 php73 php74 php80 php81 php82 php83
 @echo.
 @echo.
 @copy ..\Apache-2.4-win64\conf\extra\httpd-ssl.conf ..\Apache-2.4-win64\conf\configs\
