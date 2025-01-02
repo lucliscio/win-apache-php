@@ -14,9 +14,9 @@ This is my local apache server with different php versions.
  - PHP Version 7.4.33
  - PHP Version 8.0.30
  - PHP Version 8.1.31
- - PHP Version 8.2.26
- - PHP Version 8.3.14
- - PHP Version 8.4.1 (default)
+ - PHP Version 8.2.27
+ - PHP Version 8.3.15
+ - PHP Version 8.4.2 (default)
 
 ### Installation
 
@@ -40,10 +40,10 @@ Each version of php is used in a virtualhost:
  - virtualhost `php74` uses PHP Version 7.4.33
  - virtualhost `php80` uses PHP Version 8.0.30
  - virtualhost `php81` uses PHP Version 8.1.31
- - virtualhost `php82` uses PHP Version 8.2.26
- - virtualhost `php83` uses PHP Version 8.3.14
- - virtualhost `php84` uses PHP Version 8.4.1
- - All other hosts uses PHP Version 8.4.1
+ - virtualhost `php82` uses PHP Version 8.2.27
+ - virtualhost `php83` uses PHP Version 8.3.15
+ - virtualhost `php84` uses PHP Version 8.4.2
+ - All other hosts uses PHP Version 8.4.2
  
 You can add those hosts in the following file `c:\Windows\System32\drivers\etc\hosts`
 ```
